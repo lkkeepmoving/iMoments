@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A3CE8917CAC8B300827508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A3CE8817CAC8B300827508 /* UIKit.framework */; };
+		21A3CE8B17CAC8B300827508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A3CE8A17CAC8B300827508 /* Foundation.framework */; };
+		21A3CE8D17CAC8B300827508 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A3CE8C17CAC8B300827508 /* CoreGraphics.framework */; };
+		21A3CE9317CAC8B300827508 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21A3CE9117CAC8B300827508 /* InfoPlist.strings */; };
+		21A3CE9517CAC8B300827508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A3CE9417CAC8B300827508 /* main.m */; };
+		21A3CE9917CAC8B300827508 /* iMomentsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A3CE9817CAC8B300827508 /* iMomentsAppDelegate.m */; };
+		21A3CE9B17CAC8B300827508 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A3CE9A17CAC8B300827508 /* Default.png */; };
+		21A3CE9D17CAC8B300827508 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A3CE9C17CAC8B300827508 /* Default@2x.png */; };
+		21A3CE9F17CAC8B300827508 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A3CE9E17CAC8B300827508 /* Default-568h@2x.png */; };
+		21A3CEA217CAC8B300827508 /* iMomentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A3CEA117CAC8B300827508 /* iMomentsViewController.m */; };
+		21A3CEA517CAC8B300827508 /* iMomentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A3CEA317CAC8B300827508 /* iMomentsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21A3CE8517CAC8B300827508 /* iMoments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMoments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A3CE8817CAC8B300827508 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21A3CE8A17CAC8B300827508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21A3CE8C17CAC8B300827508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21A3CE9017CAC8B300827508 /* iMoments-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMoments-Info.plist"; sourceTree = "<group>"; };
+		21A3CE9217CAC8B300827508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21A3CE9417CAC8B300827508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21A3CE9617CAC8B300827508 /* iMoments-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMoments-Prefix.pch"; sourceTree = "<group>"; };
+		21A3CE9717CAC8B300827508 /* iMomentsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMomentsAppDelegate.h; sourceTree = "<group>"; };
+		21A3CE9817CAC8B300827508 /* iMomentsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMomentsAppDelegate.m; sourceTree = "<group>"; };
+		21A3CE9A17CAC8B300827508 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		21A3CE9C17CAC8B300827508 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		21A3CE9E17CAC8B300827508 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		21A3CEA017CAC8B300827508 /* iMomentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMomentsViewController.h; sourceTree = "<group>"; };
+		21A3CEA117CAC8B300827508 /* iMomentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMomentsViewController.m; sourceTree = "<group>"; };
+		21A3CEA417CAC8B300827508 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iMomentsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21A3CE8217CAC8B300827508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A3CE8917CAC8B300827508 /* UIKit.framework in Frameworks */,
+				21A3CE8B17CAC8B300827508 /* Foundation.framework in Frameworks */,
+				21A3CE8D17CAC8B300827508 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A3CE7C17CAC8B300827508 = {
+			isa = PBXGroup;
+			children = (
+				21A3CE8E17CAC8B300827508 /* iMoments */,
+				21A3CE8717CAC8B300827508 /* Frameworks */,
+				21A3CE8617CAC8B300827508 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21A3CE8617CAC8B300827508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21A3CE8517CAC8B300827508 /* iMoments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21A3CE8717CAC8B300827508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21A3CE8817CAC8B300827508 /* UIKit.framework */,
+				21A3CE8A17CAC8B300827508 /* Foundation.framework */,
+				21A3CE8C17CAC8B300827508 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21A3CE8E17CAC8B300827508 /* iMoments */ = {
+			isa = PBXGroup;
+			children = (
+				21A3CE9717CAC8B300827508 /* iMomentsAppDelegate.h */,
+				21A3CE9817CAC8B300827508 /* iMomentsAppDelegate.m */,
+				21A3CEA017CAC8B300827508 /* iMomentsViewController.h */,
+				21A3CEA117CAC8B300827508 /* iMomentsViewController.m */,
+				21A3CEA317CAC8B300827508 /* iMomentsViewController.xib */,
+				21A3CE8F17CAC8B300827508 /* Supporting Files */,
+			);
+			path = iMoments;
+			sourceTree = "<group>";
+		};
+		21A3CE8F17CAC8B300827508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A3CE9017CAC8B300827508 /* iMoments-Info.plist */,
+				21A3CE9117CAC8B300827508 /* InfoPlist.strings */,
+				21A3CE9417CAC8B300827508 /* main.m */,
+				21A3CE9617CAC8B300827508 /* iMoments-Prefix.pch */,
+				21A3CE9A17CAC8B300827508 /* Default.png */,
+				21A3CE9C17CAC8B300827508 /* Default@2x.png */,
+				21A3CE9E17CAC8B300827508 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21A3CE8417CAC8B300827508 /* iMoments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A3CEA817CAC8B300827508 /* Build configuration list for PBXNativeTarget "iMoments" */;
+			buildPhases = (
+				21A3CE8117CAC8B300827508 /* Sources */,
+				21A3CE8217CAC8B300827508 /* Frameworks */,
+				21A3CE8317CAC8B300827508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMoments;
+			productName = iMoments;
+			productReference = 21A3CE8517CAC8B300827508 /* iMoments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21A3CE7D17CAC8B300827508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iMoments;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kai Lu and Ziyu Ou";
+			};
+			buildConfigurationList = 21A3CE8017CAC8B300827508 /* Build configuration list for PBXProject "iMoments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21A3CE7C17CAC8B300827508;
+			productRefGroup = 21A3CE8617CAC8B300827508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21A3CE8417CAC8B300827508 /* iMoments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21A3CE8317CAC8B300827508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A3CE9317CAC8B300827508 /* InfoPlist.strings in Resources */,
+				21A3CE9B17CAC8B300827508 /* Default.png in Resources */,
+				21A3CE9D17CAC8B300827508 /* Default@2x.png in Resources */,
+				21A3CE9F17CAC8B300827508 /* Default-568h@2x.png in Resources */,
+				21A3CEA517CAC8B300827508 /* iMomentsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A3CE8117CAC8B300827508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A3CE9517CAC8B300827508 /* main.m in Sources */,
+				21A3CE9917CAC8B300827508 /* iMomentsAppDelegate.m in Sources */,
+				21A3CEA217CAC8B300827508 /* iMomentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21A3CE9117CAC8B300827508 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A3CE9217CAC8B300827508 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21A3CEA317CAC8B300827508 /* iMomentsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A3CEA417CAC8B300827508 /* en */,
+			);
+			name = iMomentsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21A3CEA617CAC8B300827508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21A3CEA717CAC8B300827508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21A3CEA917CAC8B300827508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMoments/iMoments-Prefix.pch";
+				INFOPLIST_FILE = "iMoments/iMoments-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21A3CEAA17CAC8B300827508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMoments/iMoments-Prefix.pch";
+				INFOPLIST_FILE = "iMoments/iMoments-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A3CE8017CAC8B300827508 /* Build configuration list for PBXProject "iMoments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A3CEA617CAC8B300827508 /* Debug */,
+				21A3CEA717CAC8B300827508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A3CEA817CAC8B300827508 /* Build configuration list for PBXNativeTarget "iMoments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A3CEA917CAC8B300827508 /* Debug */,
+				21A3CEAA17CAC8B300827508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21A3CE7D17CAC8B300827508 /* Project object */;
+}
