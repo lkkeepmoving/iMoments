@@ -7,13 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "STRootViewController.h"
+#import "KKPasscodeLock.h"
 
-@class iMomentsViewController;
-
-@interface iMomentsAppDelegate : UIResponder <UIApplicationDelegate>
+@class STNavigationViewController;
+@interface AppDelegate : UIResponder <UIApplicationDelegate,KKPasscodeViewControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) iMomentsViewController *viewController;
+@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+@property (nonatomic,strong) STNavigationViewController *navigationController;
++(AppDelegate *)shareAppDelegate;
+
+- (void)saveContext;
+-(void)showDir;
+- (NSURL *)applicationDocumentsDirectory;
 
 @end
